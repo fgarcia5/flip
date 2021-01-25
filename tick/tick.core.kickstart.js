@@ -3519,11 +3519,11 @@ var setTimer = function setTimer(cb) {
 	};
 
 	var stopListeningForVisibilityChanges = function stopListeningForVisibilityChanges() {
-		document.removeEventListener('visibilitychange', handleVisibilityChange);
+		//document.removeEventListener('visibilitychange', handleVisibilityChange);
 	};
 
 	var startListeningForVisibilityChanges = function startListeningForVisibilityChanges() {
-		document.addEventListener('visibilitychange', handleVisibilityChange);
+		//document.addEventListener('visibilitychange', handleVisibilityChange);
 	};
 
 	var handleVisibilityChange = function handleVisibilityChange() {
